@@ -48,18 +48,24 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-participante1"> Participante 1</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-participante1"> Martina Juri</a>
                     </div>
                     <div class="modal-body">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-participante2"> Participante 2</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-participante2"> Franco Nebro</a>
                     </div>
                     <div class="modal-body">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-participante3"> Participante 3</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-participante3"> Juan Ignacio Galvan Acuña </a>
+                    </div>
+                    <div class="modal-body">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-participante4"> Agustín Álvarez </a>
+                    </div>
+                    <div class="modal-body">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal-participante5"> José Raúl Vega </a>
                     </div>
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-primary">Guardar cambios</button>
+                      <!--   <button type="button" class="btn btn-primary">Guardar cambios</button> -->
                     </div>
                 </div>
             </div>
@@ -75,13 +81,13 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Nombre
+                        Martina Juri
                     </div>
                     <div class="modal-body">
-                        Direccion
+                        Av. Colón
                     </div>
                     <div class="modal-body">
-                        Teléfono
+                        0123456789
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary">Eliminar del grupo</button>
@@ -100,13 +106,13 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Nombre
+                        Franco Nebro
                     </div>
                     <div class="modal-body">
-                        Direccion
+                        Av. Medina Allende
                     </div>
                     <div class="modal-body">
-                        Teléfono
+                        9876543210
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary">Eliminar del grupo</button>
@@ -125,13 +131,13 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Nombre
+                        Juan Ignacio Galvan Acuña
                     </div>
                     <div class="modal-body">
-                        Direccion
+                        Dr. Juan Filloy
                     </div>
                     <div class="modal-body">
-                        Teléfono
+                        1236547890
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary">Eliminar del grupo</button>
@@ -141,6 +147,57 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="modal-participante4" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Notificaciones</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Agustín Álvarez
+                    </div>
+                    <div class="modal-body">
+                        Av Vélez Sarsfield
+                    </div>
+                    <div class="modal-body">
+                        0987123456
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Eliminar del grupo</button>
+                        <button type="button" class="btn btn-secundary" data-bs-target="#info-grupo"
+                            data-bs-toggle="modal">Volver</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-participante5" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Notificaciones</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        José Raúl Vega
+                    </div>
+                    <div class="modal-body">
+                        Haya de la Torre
+                    </div>
+                    <div class="modal-body">
+                        6345789012
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Eliminar del grupo</button>
+                        <button type="button" class="btn btn-secundary" data-bs-target="#info-grupo"
+                            data-bs-toggle="modal">Volver</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
 
         <!-- Modal perfil -->
         <div class="modal fade" id="modal-perfil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -155,18 +212,18 @@
                             <form action="form.php" method="get" enctype="text/plain" class="">
 
                                 <div>
-                                    <label for="nombre">Nombre</label>
-                                    <input type="text" id="nombre" placeholder="Ingrese su Nombre" required>
+                                    <label for="nombre">Martina Juri</label> <br>
+                                    <input type="text" id="nombre" placeholder="Ingrese su nuevo nombre" required><br><br>
                                 </div>
 
                                 <div>
-                                    <label for="direccion">Dirección</label>
-                                    <input type="text" id="direccion" placeholder="Ingrese su dirección">
+                                    <label for="direccion">Av. Colón</label> <br>
+                                    <input type="text" id="direccion" placeholder="Ingrese su nueva dirección"><br><br>
                                 </div>
 
                                 <div>
-                                    <label for="clave">Teléfono</label>
-                                    <input type="text" id="telefono" placeholder="Ingrese su Teléfono" required>
+                                    <label for="clave">0123456789</label><br>
+                                    <input type="text" id="telefono" placeholder="Ingrese su nuevo teléfono" required><br><br>
                                 </div>
                                 </fieldset>
                         </div>
@@ -186,9 +243,9 @@
                 Grupo A24
             </button>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Grupo A48</a></li>
-                <li><a class="dropdown-item" href="#">Grupo A72</a></li>
-                <li><a class="dropdown-item" href="#">Grupo A96</a></li>
+                <li><a class="dropdown-item" href="#">Grupo A24</a></li>
+                <li><a class="dropdown-item" href="#">Grupo Taller de Programacion</a></li>
+                <li><a class="dropdown-item-text" href="#">Agregar grupo</a></li>
             </ul>
         </div>
 
