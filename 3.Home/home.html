@@ -34,18 +34,43 @@
                 <div>
                     <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-perfil">Perfil</a>
                     <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#info-grupo">Grupo</a>
-                    <a class="nav-link" id="SalirGrupo">Salir del grupo</a>
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#salir-del-grupo">Salir del grupo</a>
                 </div>
             </div>
         </div>
+
+        <!-- Modal Salir del grupo -->
+
+        <div class="modal fade" id="salir-del-grupo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Salir del grupo</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div>
+                        <h2 class="modal-body fs-5" id="exampleModalLabel">¿Estás seguro que quieres salir del grupo?</h2>
+                    </div>
+    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" onclick="salirDelGrupo()">Salir</button>
+                      <!--   <button type="button" class="btn btn-primary">Guardar cambios</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <!-- Modal info del grupo -->
         <div class="modal fade" id="info-grupo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Nombre del grupo</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">A24</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div>
+                        <h2 class="modal-body fs-5" id="exampleModalLabel">Código: 490ZONF5</h2>
                     </div>
                     <div class="modal-body">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-participante1"> Martina Juri</a>
