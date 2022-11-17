@@ -26,3 +26,7 @@ function volverAtras() {
     document.getElementById('page-nuevo-grupo').style.display = 'none';
     document.getElementById('botonAtrasDiv').style.display = 'none';
 }
+
+function irAHome() {
+    location.href = "../3.Home/home.html"
+}
