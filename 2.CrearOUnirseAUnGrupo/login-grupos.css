@@ -185,3 +185,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* .contenedor {
+  position: relative;
+} */
+
+.CrearOUnirseGrupoDiv {
+  align-items: center;
+  flex-direction: column;
+}

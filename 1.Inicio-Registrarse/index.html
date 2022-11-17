@@ -8,7 +8,7 @@
   <title>Ingresar</title>
   <link rel="stylesheet" href="style.css">
   <script src="./loginUsuario.js"></script>
-  <script src="./main.js" type="module"></script>
+  <!-- <script src="./main.js" type="module"></script> -->
 </head>
 
 <!-- Div para iniciar sesion -->
@@ -17,15 +17,14 @@
   <div id="IniciarSesionDiv" class="login-page" style="display: block;">
     <div class="form">
       <form class="login-form" id="formularioUsuariosIniciarSesion">
-        <input type="text" id="nombreUsuario" placeholder="Nombre" />
+        <!-- <input type="text" id="nombreUsuario" placeholder="Nombre" /> -->
         <input type="text" id="telefonoUsuario" placeholder="Teléfono" />
-        <input type="text" id="direccionUsuario" placeholder="Dirección" />
+        <!-- <input type="text" id="direccionUsuario" placeholder="Dirección" /> -->
         <button onclick="mostras_Registrarse()" class="botonDeRegistrarse" type="button">
           <p class="pRegistrarse">¿No tienes cuenta? Registrarse</p>
         </button>
-        <button class="botonIngresar" type="submit">INGRESAR</button>
-
-        <button class="botonDeRegistrarse" type="button" id="googleLogin">Google</button>
+        <button onclick="irAGrupos()" class="botonIngresar" type="submit">INGRESAR</button>
+        <!-- <button class="botonDeRegistrarse" type="button" id="googleLogin">Google</button> -->
       </form>
     </div>
   </div>
@@ -41,8 +40,7 @@
         <button onclick="mostras_IniciarSesion()" class="botonDeIniciarSesion" type="button">
           <p class="pIniciarSesion">¿Ya tienes cuenta? Inicia Sesion</p>
         </button>
-        <button class="botonRegistrarse" type="submit">Registrarse</button>
-
+        <button onclick="irAGrupos()" class="botonRegistrarse" type="submit">Registrarse</button>
       </form>
     </div>
   </div>

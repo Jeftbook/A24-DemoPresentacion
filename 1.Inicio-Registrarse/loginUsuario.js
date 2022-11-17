@@ -12,3 +12,7 @@ function mostras_IniciarSesion() {
     document.getElementById('IniciarSesionDiv').style.display = 'block';
     document.getElementById('RegistrarseDiv').style.display = 'none';
 }
+
+function irAGrupos() {
+    location.href = "../2.CrearOUnirseAUnGrupo/login-grupos.html"
+}

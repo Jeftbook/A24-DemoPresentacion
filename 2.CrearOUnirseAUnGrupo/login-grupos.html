@@ -22,8 +22,8 @@
   </div>
 
   <!-- pagina para crear o unirse a un grupo -->
-
-  <div id="buttons-grupos" style="display: block;">
+<div class="contenedor">
+  <div class="CrearOUnirseGrupoDiv" id="buttons-grupos" style="display: block;">
     <button onclick="mostrar_CrearNuevoGrupo()" id="button-crear" type="button" class="boton1">
       <i class="fa-sharp fa-solid fa-plus"></i>
       <p class="text">CREAR GRUPO NUEVO</p>
@@ -34,6 +34,7 @@
       <p class="text">UNIRSE A UN GRUPO</p>
     </button>
   </div>
+</div>
 
   <!-- pagina para crear nuevo grupo -->
 
@@ -41,7 +42,7 @@
     <div class="form">
       <form class="login-form" Id="formularioGrupo">
         <input type="text" id="nombreGrupo" placeholder="Nombre de grupo" />
-        <button type="button" onclick="registrarGrupo()">CREAR</button>
+        <button type="button" onclick="irAHome()">CREAR</button>
       </form>
     </div>
   </div>
@@ -52,7 +53,7 @@
     <div class="form">
       <form class="login-form" id="formParaUnirseAGrupo">
         <input type="text" id="codigoGrupo" placeholder="Codigo de Grupo" />
-        <button type="button" onclick="agregarUsuarioPorCodigo()">ENTRAR</button>
+        <button type="button" onclick="irAHome()">ENTRAR</button>
       </form>
     </div>
   </div>
