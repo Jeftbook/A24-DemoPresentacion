@@ -1,4 +1,4 @@
-document.getElementById("formularioUsuariosIniciarSesion").addEventListener("submit", registrarUsuario);
+// document.getElementById("formularioUsuariosIniciarSesion").addEventListener("submit", registrarUsuario);
 
 function registrarUsuario(e){
     e.preventDefault();
